@@ -1,11 +1,11 @@
-# FasTac Project Website
+# GelSpec3D Project Website
 
-Standalone static homepage for the FasTac research project.
+Standalone static homepage for the GelSpec3D research project.
 
 Intended GitHub Pages URL:
 
 ```text
-https://jayvenlu.github.io/fastac-website/
+https://jayvenlu.github.io/gelspec3d-website/
 ```
 
 ## Local Preview

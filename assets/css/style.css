@@ -148,11 +148,11 @@ select {
 }
 
 .brand > span:last-child {
-  font-size: 1rem;
+  font-size: 1.02rem;
 }
 
 .brand-mark {
-  width: 34px;
+  width: 36px;
   height: 34px;
   display: grid;
   place-items: center;
@@ -751,7 +751,12 @@ select {
   align-items: start;
 }
 
+.citation-layout > * {
+  min-width: 0;
+}
+
 .citation-box {
+  min-width: 0;
   padding: 18px;
   background: var(--dark);
   border-radius: var(--radius);
@@ -920,9 +925,10 @@ select {
 
   .hero h1 {
     max-width: 100%;
-    font-size: 2.45rem;
+    font-size: 2.2rem;
     line-height: 1.12;
-    overflow-wrap: normal;
+    overflow-wrap: anywhere;
+    hyphens: auto;
   }
 
   .hero-actions {
@@ -979,8 +985,8 @@ select {
 @media (max-width: 420px) {
   .hero h1 {
     max-width: 100%;
-    font-size: 2.05rem;
-    overflow-wrap: break-word;
+    font-size: 1.92rem;
+    overflow-wrap: anywhere;
   }
 
   .hero-actions {

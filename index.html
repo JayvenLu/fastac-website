@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="FasTac is a curved RGB-NIR vision-tactile sensor for high-fidelity, high-speed 3D shape and 3-axis force perception.">
+  <meta name="description" content="GelSpec3D is a curved multispectral vision-tactile sensor for high-precision, high-speed 3D shape and three-axis force perception.">
   <meta name="theme-color" content="#f6f8f7">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="FasTac: Curved Vision-Tactile Perception">
-  <meta property="og:description" content="A curved RGB-NIR vision-tactile sensor for 3D reconstruction, 3-axis force perception, and FPGA edge acceleration.">
+  <meta property="og:title" content="GelSpec3D: Curved Multispectral Vision-Tactile Perception">
+  <meta property="og:description" content="High-precision 3D reconstruction, three-axis force perception, and high-speed FPGA edge decoding in a curved RGB-NIR fingertip.">
   <meta property="og:image" content="assets/images/og-cover.webp">
-  <title>FasTac | Curved Vision-Tactile Perception</title>
+  <title>GelSpec3D | Curved Multispectral Vision-Tactile Perception</title>
   <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="assets/js/main.js" defer></script>
@@ -19,9 +19,9 @@
 
   <header class="site-header" data-header>
     <div class="nav-wrap">
-      <a class="brand" href="#top" aria-label="FasTac home">
-        <span class="brand-mark">F</span>
-        <span>FasTac</span>
+      <a class="brand" href="#top" aria-label="GelSpec3D home">
+        <span class="brand-mark">G</span>
+        <span>GelSpec3D</span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
         <span class="sr-only">Toggle navigation</span>
@@ -43,7 +43,7 @@
       <div class="container hero-grid">
         <div class="hero-copy">
           <p class="status-line">Under Review</p>
-          <h1>FasTac: A Curved Vision-Tactile Sensor for High-Fidelity, High-Speed 3D Shape and Three-Axis Force Perception</h1>
+          <h1>GelSpec3D: A Curved Multispectral Vision-Tactile Sensor for High-Precision, High-Speed 3D Shape and Three-Axis Force Perception</h1>
           <p class="authors">
             <a href="https://jayvenlu.github.io/" target="_blank" rel="noreferrer">Xiaofan Lu</a>,
             <span>Kaiji Huang</span>,
@@ -61,7 +61,7 @@
           </div>
         </div>
         <figure class="hero-figure">
-          <img src="assets/images/overview.webp" alt="FasTac sensors on a dexterous hand, RGB and NIR observations, surface normals, depth, and 3-axis force visualization." width="1600" height="900">
+          <img src="assets/images/overview.webp" alt="GelSpec3D sensors on a dexterous hand, RGB and NIR observations, surface normals, depth, and three-axis force visualization." width="1600" height="900">
         </figure>
       </div>
     </section>
@@ -73,7 +73,7 @@
             <p class="section-index">01 / Overview</p>
             <h2>Curved tactile geometry, force, and speed in one fingertip.</h2>
           </div>
-          <p>FasTac combines RGB-NIR multispectral imaging, curved-surface 3D reconstruction, position-aware 3-axis force estimation, and an FPGA image-to-normal-force pipeline for dexterous-hand integration.</p>
+          <p>GelSpec3D combines RGB-NIR multispectral imaging, curved-surface 3D reconstruction, position-aware three-axis force estimation, and an FPGA image-to-normal-force pipeline for dexterous-hand integration.</p>
         </div>
 
         <div class="metrics-grid" aria-label="Key results">
@@ -124,7 +124,7 @@
           <p>Visible and near-infrared signals are captured from the same optical center, avoiding cross-camera registration while reducing sensor volume for fingertip integration.</p>
         </div>
         <figure class="paper-figure">
-          <img src="assets/images/sensor-structure.webp" alt="Mechanical design and integration of the FasTac curved sensor." width="810" height="412" loading="lazy">
+          <img src="assets/images/sensor-structure.webp" alt="Mechanical design and integration of the GelSpec3D curved sensor." width="810" height="412" loading="lazy">
           <figcaption>Mechanical structure and compact RGB-NIR imaging module.</figcaption>
         </figure>
       </div>
@@ -137,11 +137,11 @@
             <p class="section-index">03 / Method</p>
             <h2>From raw RGB-NIR images to shape, displacement, and force.</h2>
           </div>
-          <p>FasTac decodes contact through four-source photometric stereo, boundary-prior fast Poisson depth recovery, marker-based tangential displacement extraction, and HyperForce 3-axis force estimation.</p>
+          <p>GelSpec3D decodes contact through four-source photometric stereo, boundary-prior fast Poisson depth recovery, marker-based tangential displacement extraction, and HyperForce three-axis force estimation.</p>
         </div>
 
         <figure class="paper-figure figure-wide">
-          <img src="assets/images/perception-pipeline.webp" alt="FasTac pipeline for normal estimation, depth reconstruction, marker displacement extraction, and position-aware 3-axis force estimation." width="1835" height="965" loading="lazy">
+          <img src="assets/images/perception-pipeline.webp" alt="GelSpec3D pipeline for normal estimation, depth reconstruction, marker displacement extraction, and position-aware three-axis force estimation." width="1835" height="965" loading="lazy">
           <figcaption>Perception pipeline for 3D reconstruction and 3-axis force estimation.</figcaption>
         </figure>
 
@@ -167,7 +167,7 @@
             </div>
           </div>
           <figure class="fpga-figure">
-            <img src="assets/images/fpga-architecture.webp" alt="FPGA architecture for the FasTac image-to-normal-force perception pipeline." width="1600" height="748" loading="lazy">
+            <img src="assets/images/fpga-architecture.webp" alt="FPGA architecture for the GelSpec3D image-to-normal-force perception pipeline." width="1600" height="748" loading="lazy">
             <figcaption>FPGA architecture for image synchronization, buffering, acceleration, and normal-force output.</figcaption>
           </figure>
         </div>
@@ -196,7 +196,7 @@
           </article>
           <article class="result-card">
             <figure>
-              <img src="assets/images/force-regression-tight.webp" alt="Regression plots comparing predicted 3-axis forces with ATI force-sensor ground truth." width="888" height="300" loading="lazy">
+              <img src="assets/images/force-regression-tight.webp" alt="Regression plots comparing predicted three-axis forces with ATI force-sensor ground truth." width="1123" height="386" loading="lazy">
             </figure>
             <div>
               <p class="card-label">Force estimation</p>
@@ -206,12 +206,22 @@
           </article>
           <article class="result-card">
             <figure>
-              <img src="assets/images/vibration-response-tight.webp" alt="CPU, GPU, and FPGA frequency spectra and time-domain responses under 50, 70, and 100 hertz vibration." width="1672" height="804" loading="lazy">
+              <img src="assets/images/spatial-robustness-tight.webp" alt="Resultant-force magnitude and direction errors across 64 curved-surface contact locations." width="1143" height="405" loading="lazy">
             </figure>
             <div>
-              <p class="card-label">High-frequency decoding</p>
+              <p class="card-label">Spatial robustness</p>
+              <h3>Position-aware force estimation remains stable across the curved sensing surface.</h3>
+              <p>Magnitude error rises from 0.039 N at the center to 0.061 N near the corners; direction error rises from 2.70° to 3.36°.</p>
+            </div>
+          </article>
+          <article class="result-card result-wide">
+            <figure>
+              <img src="assets/images/vibration-response-tight.webp" alt="CPU, GPU, and FPGA frequency spectra and time-domain responses under 50, 70, and 100 hertz vibration." width="1900" height="929" loading="lazy">
+            </figure>
+            <div>
+              <p class="card-label">High-speed decoding</p>
               <h3>The FPGA path supports continuous dynamic tactile measurement.</h3>
-              <p>The image-to-Fz pipeline reaches 1.09 ms latency and approximately 918 Hz output.</p>
+              <p>At 70 Hz, CPU aliases to 31.58 Hz while GPU and FPGA recover 69.98 and 70.03 Hz. At 100 Hz, CPU and GPU shift to 1.10 and 49.39 Hz while FPGA detects 100.04 Hz.</p>
             </div>
           </article>
         </div>
@@ -266,7 +276,7 @@
             </video>
             <div>
               <p class="card-label">Vibration</p>
-              <h3>High-frequency normal-force sensing</h3>
+              <h3>High-speed normal-force sensing</h3>
             </div>
           </article>
         </div>
@@ -278,12 +288,12 @@
         <div>
           <p class="section-index">06 / Citation</p>
           <h2>Provisional citation for an unpublished manuscript.</h2>
-          <p>FasTac is currently under review. The publication record and stable citation metadata will be updated after acceptance.</p>
+          <p>GelSpec3D is currently under review. The publication record and stable citation metadata will be updated after acceptance.</p>
         </div>
         <div class="citation-box">
           <button id="copy-citation" type="button">Copy BibTeX</button>
-          <pre id="bibtex"><code>@misc{lu2026fastac,
-  title={FasTac: A Curved Vision-Tactile Sensor for High-Fidelity, High-Speed 3D Shape and Three-Axis Force Perception},
+          <pre id="bibtex"><code>@misc{lu2026gelspec3d,
+  title={GelSpec3D: A Curved Multispectral Vision-Tactile Sensor for High-Precision, High-Speed 3D Shape and Three-Axis Force Perception},
   author={Lu, Xiaofan and Huang, Kaiji and Lin, Yuankai and Chen, Jiahui and Yang, Hua and Yin, Zhouping},
   year={2026},
   note={Manuscript under review}
@@ -296,7 +306,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>FasTac / Huazhong University of Science and Technology</p>
+      <p>GelSpec3D / Huazhong University of Science and Technology</p>
       <p>Project page for an unpublished research manuscript.</p>
     </div>
   </footer>
