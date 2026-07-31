@@ -557,7 +557,7 @@ select {
 .method-feature-grid {
   margin-top: 42px;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
   gap: 18px;
 }
 
@@ -632,41 +632,10 @@ select {
   margin-top: 12px;
 }
 
-.pipeline-flow {
-  margin-top: 22px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 8px;
-}
-
-.pipeline-flow span,
-.pipeline-flow i {
-  min-height: 40px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: var(--radius);
-}
-
-.pipeline-flow span {
-  padding: 9px 12px;
-  color: white;
-  background: rgba(255, 255, 255, 0.09);
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  font-weight: 800;
-}
-
-.pipeline-flow i {
-  color: #f1b24e;
-  font-style: normal;
-  font-weight: 850;
-}
-
 .fpga-figure {
   margin: 0;
   padding: 14px;
-  align-self: center;
+  width: 100%;
   background: rgba(255, 255, 255, 0.96);
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: var(--radius);
@@ -674,7 +643,7 @@ select {
 
 .fpga-figure img {
   width: 100%;
-  max-height: 520px;
+  height: auto;
   object-fit: contain;
   border-radius: 5px;
 }
@@ -687,8 +656,9 @@ select {
 
 .result-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 18px;
+  align-items: start;
 }
 
 .result-card {
@@ -959,7 +929,7 @@ select {
 
   .metrics-grid,
   .result-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .principles,
@@ -974,10 +944,6 @@ select {
 
   .result-wide {
     grid-column: 1 / -1;
-  }
-
-  .pipeline-flow {
-    justify-content: flex-start;
   }
 
   .hero h1 {
@@ -1108,14 +1074,6 @@ select {
     grid-template-columns: 1fr;
   }
 
-  .pipeline-flow {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .pipeline-flow i {
-    display: none;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
