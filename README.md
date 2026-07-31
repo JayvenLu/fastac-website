@@ -1,11 +1,15 @@
-# GelSpec3D Project Website
+# FasTac Project Website
 
-Standalone static homepage for the GelSpec3D research project.
+Standalone static homepage for the FasTac research project and its arXiv preprint:
+
+- Paper: <https://arxiv.org/abs/2607.28416>
+- Project page: <https://jayvenlu.github.io/fastac-website/>
+- Repository: <https://github.com/JayvenLu/fastac-website>
 
 Intended GitHub Pages URL:
 
 ```text
-https://jayvenlu.github.io/gelspec3d-website/
+https://jayvenlu.github.io/fastac-website/
 ```
 
 ## Local Preview
@@ -21,24 +25,21 @@ Then open `http://localhost:8000`.
 The site is a zero-build static project using HTML, CSS, and a small amount of
 vanilla JavaScript.
 
-## Content Status
+## Content
 
-- Manuscript status: under review
-- Public manuscript artifact: not included
-- Public implementation repository: not linked
-- Public dataset: not linked
+The page embeds web-optimized copies of the final paper figures and supplementary
+videos. The public project repository contains only the website; research source
+code, datasets, manuscript sources, and internal project files are not included.
 
-The page intentionally embeds only web-optimized project figures and videos.
-The FPGA energy values described by the page are Vivado estimates combined
-with scheduled RTL/HLS latency, not board-measured end-to-end energy.
+The FPGA energy value described by the page is based on Vivado estimates combined
+with scheduled RTL/HLS latency, not a board-measured end-to-end energy value.
 
-## Release Checklist
+## Maintenance
 
-- Confirm disclosure approval before enabling public discovery.
-- Replace `Under Review` after final acceptance.
-- Replace the provisional BibTeX entry with publication metadata after it is available.
-- Recheck all reported metrics against the final manuscript.
-- Add the project-page link to the author profile when ready.
+- Keep the title, author order, abstract claims, and metrics aligned with the current arXiv version.
+- Replace the arXiv citation with final publication metadata after acceptance.
+- Re-encode replacement videos as H.264/YUV420P MP4 with fast-start metadata.
+- Verify responsive layouts and external links before each Pages deployment.
 
 ## Rights
 
