@@ -4,6 +4,7 @@ Standalone static homepage for the FasTac research project and its arXiv preprin
 
 - Paper: <https://arxiv.org/abs/2607.28416>
 - Project page: <https://jayvenlu.github.io/fastac-website/>
+- Code: <https://github.com/JayvenLu/3d-reconstruction-and-force-estimation-of-curved-vision-based-tactile-sensors>
 - Repository: <https://github.com/JayvenLu/fastac-website>
 
 Intended GitHub Pages URL:
